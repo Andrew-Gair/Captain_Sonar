@@ -1,0 +1,14 @@
+This is a work in progress program.
+
+Directory structure:
+"Resources" contains the different maps the game can be played on.
+"Source" contains the code used in program compilation/execution.
+
+How to run program:
+A makefile is included. After removing old main.x file (with 'rm main.x'), typing "make" will compile the program.
+Run the program with './main.x'.
+
+You will be prompted throughout the program for user-input.
+There is a barebones type-check to limit entry failures (for example, entering a string when prompted for an integer).
+
+Most features are functional, one notable absence is 'Sonar' functionality. A core feature awaiting implementation.
